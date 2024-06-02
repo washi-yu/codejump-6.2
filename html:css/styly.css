@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main-photo{ 
+  width: 50%;
+  height: 700px;
+  
+}
+
+#main-photo > img {
+  width: 100%;
+  height: 700px;
+}
+
+#recipe {
+  width: 50%;
+  
+}
+
+#recipe > h2 {
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 30px ;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-family: Meiryo bold;
+}
+
+#recipe > p {
+  margin-left: 50px;
+  margin-right: 30px ;
+  margin-bottom: 40px ;
+  font-family: Meiryo, Regular;
+} 
+
+ul {
+  margin-left: 50px;
+  margin-right: 30px ;
+  margin-bottom:40px ;
+  list-style: none;
+  padding: 0;
+  
+}
+
+.c-h3 {
+  font-size:20px ;
+  border-bottom: 1px solid #CCCCCC;
+  margin-left: 50px;
+  margin-right: 30px ;
+}
+
+#span {
+  margin-left: 10px;
+}
+
+ul > li > p {
+  position: relative;
+  border-bottom: 1px solid #CCCCCC;
+
+}
+
+.c-span {
+  position: absolute;
+  right: 0;
+}
+
+ol {
+  padding: 0;
+  margin-left: 70px;
+  margin-right: 30px ;
+}
+
+ol > li > p {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#recipi-lisut {
+  width: 252px;
+  height:57px;
+  margin: 60px auto 0 auto;
+  border: 1px solid #2B2A27;
+}
+
+#recipi-lisut > p {
+  text-align: center;
+  font-size: 14px;
+}
+
+#link {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#link > a {
+  color: #2B2A27;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer > div > p {
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width:834px){ 
+
+
+  #main-photo{ 
+    width: 100%;
+  }
+  #main-photo > img {
+    width: 100%;
+    
+  }
+
+#recipe {
+  width: 100%;  
+}
+  
+#recipe > h2 {
+  width: 90%;
+  margin: 30px auto 30px auto; 
+  
+  
+}
+
+#recipe > p {
+  margin: 0 auto 0 auto;
+  width: 90%;
+}
+
+  
+  }
